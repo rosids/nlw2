@@ -1,0 +1,16 @@
+root = true
+
+[*]
+end_of_line = lf
+
+# Define o tipo e o tamanho da indentação
+indent_style = space
+indent_size = 2
+
+charset = utf-8
+
+# Apagar espaços inutilizados no fim de cada linha
+trim_trailing_whitespace = true
+
+# Adicionar uma última linha em branco no final dos arquivos
+insert_final_newline = true
