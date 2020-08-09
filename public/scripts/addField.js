@@ -2,7 +2,7 @@
 document.querySelector("#add-time")
 
 // Quando clicar no botão
-addEventListener("click", cloneField)
+.addEventListener("click", cloneField)
 // Executar uma ação
 function cloneField() {
   // Pega o campo para duplicação
