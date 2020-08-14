@@ -1,3 +1,5 @@
+const { subjects, weekdays, getSubject } = require('./utils/format')
+
 function pageLanding(req,res) {
   return res.render("index.html")
 }
