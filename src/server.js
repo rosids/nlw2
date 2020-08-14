@@ -2,6 +2,8 @@
 const express = require('express')
 const server = express()
 
+const  { pageLanding, pageStudy, pageGiveClasses } = require('./pages')
+
 // Configurar nunjucks (template engine)
 const nunjucks = require("nunjucks")
 nunjucks.configure("src/views", {
